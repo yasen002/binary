@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>yasen</title>
+    <!--  meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+
+
+  </head>
+  <body class="bg-dark jumbotron">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 mx-auto">
+          <div class="card card-body text-center mt-5">
+            <h3 class="heading display-5 pb-3">Binary Conversion</h1>
+            <form id="binary-form">
+              <div class="form-group ">
+                <div class="input-group">
+                  <span class="input-group-addon">Binary:</span>
+                  <input type="text" class="form-control" id="num" placeholder="Enter Number">
+                </div>
+              </div>
+            </form>
+            <!-- LOADER -->
+          
+            <!-- RESULTS -->
+            <div id="results" class="pt-auto">
+              <h5>Results</h5>
+              <div class="form-group">
+                <div style="height:300px" class="resultbox input-group">
+                  <span class="input-group-addon">Binary: </span>
+                    <textarea id="result"  class="form-control text-center"  placeholder="Conversion result will apear here....." disabled></textarea>
+                </div>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+
+  </body>
+</html>
